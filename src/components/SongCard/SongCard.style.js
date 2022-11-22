@@ -18,15 +18,30 @@ export default StyleSheet.create({
     title:{
         fontWeight:"bold",
         fontSize:27,
+        color:"black"
     },
     info_container:{
         flexDirection:"row",
+        flex:1,
+        alignItems:"center",
     },
     year:{
         marginLeft:10,
         color:"gray",
         fontWeight:"bold",
         fontSize:12
-
+    },
+    isSoldOut_container:{
+        borderWidth:1,
+        borderColor:"red",
+        padding:5,
+        borderRadius:5
+    },
+    isSoldOut_title:{
+        color:"red",
+        fontSize:12
+    },
+    content_container:{
+        flexDirection:"row",
     }
 })

@@ -18,7 +18,6 @@ const App=()=>{
       renderItem={renderSong}
       ItemSeparatorComponent={renderSeperator}
       />
-      
     </View>
     </SafeAreaView>
   )
